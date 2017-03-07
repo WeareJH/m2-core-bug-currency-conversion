@@ -1,4 +1,8 @@
 <config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
-    <preference for="Magento\Catalog\Block\Product\View"
-                type="Jh\CoreBugCurrencyConversion\Block\Product\View" />
+    <type name="Magento\Catalog\Block\Product\View">
+        <plugin name="jh_corebugcurrencyconversion_plugins_block_product_viewplugin"
+                type="Jh\CoreBugCurrencyConversion\Plugins\Block\Product\ViewPlugin"
+                sortOrder="1"
+                disabled="false"/>
+    </type>
 </config>
