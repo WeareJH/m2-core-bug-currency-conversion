@@ -1,0 +1,3 @@
+<?php
+use Magento\Framework\Component\ComponentRegistrar;
+ComponentRegistrar::register(ComponentRegistrar::MODULE, 'Jh_CoreBugCurrencyConversion', __DIR__);

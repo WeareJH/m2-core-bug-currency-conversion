@@ -1,0 +1,16 @@
+{
+  "name": "wearejh/m2-core-bug-currency-conversion",
+  "description": "This Module fixes an issue where the price is incorrectly converted into another currency in the product view block",
+  "require": {
+    "php": "~7.0.0"
+  },
+  "type": "magento2-module",
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "Jh\\CoreBugCurrencyConversion\\": ""
+    }
+  }
+}
